@@ -41,14 +41,16 @@
 
 ## Images
 
-### Home Page
-![Home Page](project/img/home.png)
-![Homepage2](project/img/home2.png)
+#### Home Page
+![Home Page](project/img/home.png)![Homepage2](project/img/home2.png)
 
-### Login | Register Page
+### Login Page
 ![login Page](project/img/login.png)
+
+### Register Page
 ![register](project/img/register.png)
 
-### Booking Page
-![Booking Page](images/booking-page.png)
+### Ticket Booking Page
+![Booking Page](project/img/ticket.png)![Booking Page](project/img/ticket2.png)
+
 
