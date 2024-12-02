@@ -38,3 +38,12 @@
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Backend**: PHP
 - **Database**: MySQL
+
+  ## Images
+
+### Home Page
+![Home Page](images/homepage.png)
+
+### Booking Page
+![Booking Page](images/booking-page.png)
+
