@@ -39,10 +39,15 @@
 - **Backend**: PHP
 - **Database**: MySQL
 
-  ## Images
+## Images
 
 ### Home Page
-![Home Page](images/homepage.png)
+![Home Page](project/img/home.png)
+![Homepage2](project/img/home2.png)
+
+### Login | Register Page
+![login Page](project/img/login.png)
+![register](project/img/register.png)
 
 ### Booking Page
 ![Booking Page](images/booking-page.png)
