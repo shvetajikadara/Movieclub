@@ -1,34 +1,40 @@
-# Movie Club - Online Movie Ticket Booking System  
+# Movie Club - Online Movie Ticket Booking System
 
-## Description  
-**Movie Club** is an intuitive online platform designed to make movie ticket booking seamless and hassle-free. With Movie Club, users can:  
-- Explore recent and trending movies.  
-- Book tickets based on theatre type and class preference.  
-- Check the status of their booked tickets.  
-- Get detailed information about movies, including titles, genres, release dates, runtimes, directors, casts, and brief overviews.  
+## Description
+**Movie Club** is a responsive PHP-based online movie ticket booking system. It simplifies the process of exploring recent movies and booking tickets with just a few clicks. The system provides detailed information about movies, allowing users to make informed decisions. It is designed for users to book tickets anytime and anywhere, offering a seamless and user-friendly experience.
 
-This system is designed to provide an easy platform for users to access movie details and book tickets anytime, anywhere.  
+## Features
+### General Features
+- View detailed information about movies, including:
+  - Title, Genre, Release Date
+  - Runtime, Director, Cast
+  - Brief Overview
+- Enquire about recent movies and available showtimes.
+- Book movie tickets based on:
+  - Theatre type
+  - Class type (e.g., Regular, Premium)
+- View booking history.
 
----
+### Admin Panel
+- Accessible only by authorized admins via registered username and password.
+- Manage movies:
+  - Add movies with detailed information.
+  - Update or delete existing movies.
+- Manage users:
+  - View detailed information about registered users.
+  - Access user booking history.
+  - Update or delete user details.
 
-## Features  
-- Search and view detailed information about movies.  
-- Easy ticket booking process with theatre and class customization.  
-- Real-time ticket booking status updates.  
-- User-friendly interface for both admin and users.  
+### User Panel
+- **Account Management**:
+  - Login with a registered email and password.
+  - Register for a new account if not already registered.
+- **Movie Booking**:
+  - Explore trending films and book tickets.
+- **Booking History**:
+  - View past ticket bookings in the history section.
 
----
-
-## Panels  
-
-### **Admin Panel**  
-- Manage movie listings: Add, update, or remove movies.  
-- Oversee ticket bookings and handle cancellations.  
-- Generate reports on ticket sales and movie trends.  
-
-### **User Panel**  
-- Browse and search for movies.  
-- Book tickets based on preferred theatre and seating class.  
-- View booking history and check booking status.  
-
----
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP
+- **Database**: MySQL
