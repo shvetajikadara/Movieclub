@@ -40,17 +40,34 @@
 - **Database**: MySQL
 
 ## Images
-
+### User panel
 #### Home Page
 ![Home Page](project/img/home.png)![Homepage2](project/img/home2.png)
 
-### Login Page
+#### Login Page
 ![login Page](project/img/login.png)
 
-### Register Page
+#### Register Page
 ![register](project/img/register.png)
 
-### Ticket Booking Page
+#### Ticket Booking Page
 ![Booking Page](project/img/ticket.png)![Booking Page](project/img/ticket2.png)
 
+#### Ticket History Page
+![history](project/img/history.png)
 
+### Admin panel
+#### Admin Home Page
+![admin home](project/img/admin_home.png)
+
+#### User manage Page
+![User manage](project/img/viewuser.png)
+
+#### Movie ADD Page
+![Movie](project/img/movieadd.png)![Movie](project/img/movie2.png)  
+
+#### User manage Page
+![User manage](project/img/viewuser.png)
+
+#### Ticket History Page
+![Ticket manage](project/img/history(2).png)
