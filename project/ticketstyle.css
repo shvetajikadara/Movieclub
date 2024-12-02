@@ -1,0 +1,364 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+}
+
+.main {
+    background-color: black;
+    height: 600px;
+    color: white;
+    width: 100%;
+
+}
+
+
+.image {
+    height: 100%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+a.preview {
+    position: absolute;
+    left: 23px;
+    color: rgb(255, 255, 255);
+    margin-top: 12px;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.movieimg {
+    position: absolute;
+    height: 48%;
+    width: 20%;
+    top: 9%;
+    left: 10%;
+    border-radius: 8px;
+}
+
+.moviedetail {
+    /* display: none; */
+    /* margin-top: 10px; */
+    color: rgb(205, 200, 200);
+    position: absolute;
+    left: 35%;
+    top: 8%;
+    cursor: pointer;
+    width: auto;
+}
+
+
+
+div.movieimage img:hover {
+    height: 350px;
+    width: 0px;
+}
+
+div.rating {
+    background-color: rgb(79, 79, 79);
+    padding: 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    width: 40%;
+}
+
+div.movietype,
+div.movielanguage {
+    margin-top: 10px;
+    background-color: rgb(238, 235, 235);
+    color: rgb(8, 8, 8);
+    letter-spacing: 2px;
+    width: 30%;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+div.movielanguage {
+    width: 40%;
+}
+
+div.moviedit {
+    /* display: none; */
+    word-wrap: break-word;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+div.moviebtn .btn {
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 7, 7);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 35%;
+    text-align: center;
+    position: relative;
+}
+
+button.btn span {
+    letter-spacing: 3px;
+    margin-right: 40px;
+}
+
+button.btn i {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    font-size: 30px;
+    /* padding-top: 5px;
+    margin-right: 10px; */
+}
+
+button.btn:hover {
+    background-color: rgb(190, 51, 51);
+}
+
+div.fix-div {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.moviedate,
+.movietime {
+    display: flex;
+    width: auto;
+}
+
+.datediv {
+    width: 53px;
+    background-color: rgb(244, 244, 244);
+    color: black;
+    margin: 6px;
+    padding: 5px 11px;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.timediv {
+cursor: pointer;
+    margin: 6px;
+    letter-spacing: 2px;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 17px;
+    font-weight: 500;
+}
+
+.datediv:hover,
+.timediv:hover {
+    color: rgb(228, 18, 18);
+
+}
+
+div#active {
+    background-color: rgb(202, 7, 7);
+    color: white;
+}
+
+div.seat-class {
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+div.seat-div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -39%);
+    width: 95%;
+    /* Adjust as needed */
+    height: auto;
+    background-color: black;
+
+}
+
+div.movieselect #cinema {
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    /* width: 100px; */
+}
+
+
+.seat-info {
+    width: 30%;
+    color: white;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+}
+
+.seat-status {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.seat-status label {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    /* margin: 20px 0 0 20px; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.seat-status span {
+    margin-left: 5px;
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+}
+
+.selectseat-info {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: rgb(164, 164, 164);
+}
+
+.selected-seatno,
+.selectseat-name {
+    color: rgb(202, 7, 7);
+}
+
+.seat-row {
+    color: white;
+}
+
+span.row {
+    margin-right: 20px;
+}
+
+.seat {
+    border: 2px solid red;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label.booked {
+    background-color: rgb(102, 102, 102);
+    border: none;
+}
+
+
+.select {
+    background-color: rgb(202, 7, 7);
+    border: none;
+    cursor: pointer;
+
+}
+
+div.tv {
+    height: 6px;
+    width: 50%;
+    margin-top: 20px;
+    background-color: red;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    box-shadow:
+        4px 4px 8px rgba(0, 0, 0, 0.5),
+        -2px -2px 4px rgba(255, 0, 0, 0.5);
+}
+
+div.paybtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pay {
+    height: 47px;
+    width: 160px;
+    background-color: rgb(228, 18, 18);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.pay:hover {
+    background-color: rgb(190, 51, 51);
+}
+#phone{
+    position: relative;
+    top: -6px;
+    left: 40px;
+    width: auto;
+}
+#india{
+    position: absolute;
+    /* top: 0; */
+    left: 14px;
+}
+.scanner{
+    position: absolute;
+    top: 12px;   
+    right: 39px;
+}
+
+@media (max-width: 768px) {
+    .movieimg {
+        display: none;
+        /* Increase font size */
+    }
+
+    .moviedetail {
+        top: 126px;
+        left: 0px;
+
+        /* display: none; */
+        /* Increase font size */
+
+    }
+
+    div.movieselect #cinema {
+        width: 100%;
+    }
+
+    .seat{
+        margin: -2px;
+    }
+}
+@media (max-width: 500px) {
+
+    .moviedetail {
+        top: 126px;
+        left: 0px;
+       
+    }
+    .datediv{
+        margin: 4px;
+        padding: 8px 3px;
+    }
+    .seat{
+        width: 22px;
+        margin: -2px;
+    }
+}

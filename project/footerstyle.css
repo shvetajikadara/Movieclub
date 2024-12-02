@@ -1,0 +1,88 @@
+
+body{
+    background-color: black;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.footer {
+    /* background:  url('footer.png') no-repeat  center ; */
+   background-color: black;
+    padding-top: 70px;
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+a{
+    color: rgb(142, 139, 139);
+    text-decoration: none;
+}
+
+.footer-about .icon span ,i{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+.footer-about {
+    margin-bottom: 30px;
+}
+
+.footer-about p {
+    color: rgb(181, 180, 180);
+    line-height: 25px;
+    margin: 0 0 15px 30px;
+}
+
+.footer-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-logo a {
+    color: rgb(228, 18, 18);
+    font-size: 25px;  
+
+}
+.footer-widget h5{
+color: white;
+    
+}
+.footer-widget {
+    letter-spacing: 2px;
+  
+}
+.footer-widget li{
+    line-height: 36px;
+    list-style: none;
+   
+}
+.footer-widget ul li a:hover{
+    color: rgb(228, 18, 18);
+}
+.footer-newsletter form{
+    position: relative;
+}
+.footer-newsletter form input{
+    width: 80%;
+    font-size: 15px;
+    color: rgb(251, 244, 244);
+    border: none;
+    background: transparent;
+    padding: 15px 0 ;
+    border-bottom: 2px solid rgb(81, 80, 80);
+    outline: none;
+}
+.footer-newsletter form button{
+    position: absolute;
+    height: 55px;
+}
+.footer-copyright-text{
+    border-top: 2px solid rgb(45, 45, 45);
+    padding-top: 30px;
+    margin-bottom: 30px;
+color: #b9b7b7;
+}

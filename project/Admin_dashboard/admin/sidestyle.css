@@ -1,0 +1,189 @@
+
+
+::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.profile{
+    margin: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.profile img{
+    
+    /* border: 2px solid; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+#sidebar hr{
+    background-color: white;
+    height: 4px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.wrapper{
+    display: flex;
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+    background-color: white;
+}
+#sidebar{
+    width: 20%;
+    /* z-index:1000 ;
+    transition: all 0.25s ease-in-out; */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+/* #sidebar.expand{
+    width: 260px;
+    min-width: 260px;
+} */
+#toggle-btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+#toggle-btn i{
+    font-size: 1.5rem;
+    color: white;
+}
+.sidebar-logo{
+    margin: auto 0;
+}
+.sidebar-logo a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* #sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span{
+    display: none;
+}  */
+
+.sidebar-nav{
+    padding: 2rem 0;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link{
+    padding: .625rem 1.625rem;
+color: white;
+display: block;
+font-size: 0.9rem;
+white-space: nowrap;
+border-left: 3px solid transparent;
+}
+.sidebar-link i{
+    font-size: 1.5rem;
+    margin-right: .75rem;
+}
+.sidebar-link span{
+    font-size: 20px;
+}
+.dlink{
+    margin-left: 30px;
+}
+.dlink span ,i{
+    font-size: 18px;
+
+}
+a.sidebar-link:hover{
+background-color: rgb(40, 40, 40);
+border-left: 3px solid #3b7ddd;
+}
+.sidebar-item{
+    position: relative;
+}
+/* #sidebar:not(.expand) .sidebar-item .sidebar-dropdown{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background: black;
+   
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+}
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown{
+    display: block;
+    max-height: 15em;
+    color: white;
+    width: 100%;
+    opacity:1 ;
+} */
+
+
+/* home page css */
+
+h3.homeh1{
+    font-size: 45px;
+    margin-left: 100px;
+}
+div.home{
+    display: flex;
+
+}
+div.home div{
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 2px solid black ;
+    height: 250px;
+    width: 400px;
+}
+.home div{
+    font-size: 50px;
+    position: relative;
+    border-radius: 20px;
+}
+.home div.userdata ,.home  div.moviesdata,.home  div.ticketdata{
+    border: none;
+   
+
+}
+.usercount{
+    position: absolute;
+    color: rgb(23, 22, 22);
+    left: 54px;
+    top: 36px;
+}
+div.userdata img,div.moviesdata img,div.ticketdata img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 23px;
+    right: 33px;
+    opacity: 0.4;
+}
+ .home h1{
+    position: absolute;
+    bottom: 40px;
+    left: 31px;
+    font-size: 37px;
+}
+.home div a.a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 17px;
+    left: 38px;
+}

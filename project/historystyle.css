@@ -1,0 +1,83 @@
+div.ticketpage {
+    color: rgb(215, 213, 213);
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+div.ticketrec {
+    position: relative;
+    /* outline: 15px solid rgb(0, 0, 0); */
+    border: 10px dotted rgb(8, 8, 8);
+    background-color: rgb(244, 243, 243);
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.ticketrec img {
+    height: 270px;
+    width: 130px;
+}
+
+.ticketrec h1 {
+    color: rgb(232, 8, 8);
+    font-weight: 700;
+
+}
+
+.ticketinfo {
+    font-size: 25px;
+    position: absolute;
+    margin-left: 50px;
+    top: 30px;
+}
+
+.ticketinfo span {
+    margin-left: 40px;
+}
+
+.ticketdetail {
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+}
+
+td.line {
+    position: absolute;
+    right: 33%;
+}
+
+.none {
+    display: none;
+}
+
+.ticketslip {
+    position: absolute;
+    /* right: 12%; */
+    left: 66%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.movie_name {
+    font-size: 30px;
+    color: black;
+}
+
+.ticketslip img {
+    height: 100px;
+    width: 230px;
+    margin-top: 10px;
+    /* margin-bottom: 14px; */
+}
+
+span.tshow {
+    color: rgb(234, 106, 106);
+}
+
+div.empty img {
+    width: 802px;
+    margin-left: 23%;
+    margin-top: -108px;
+    opacity: 0.5;
+}

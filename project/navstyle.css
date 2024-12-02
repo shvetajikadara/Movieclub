@@ -1,0 +1,133 @@
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 20px; */
+}
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    /* margin-bottom: 100px; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .offcanvas {
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 65px;
+}
+
+.navbar .navbar-brand
+{
+    color: rgb(228, 18, 18);
+}
+.navbar .navbar-brand:hover {
+    color: rgb(209, 68, 68);
+}
+.profile{
+    margin-left: 5px;
+}
+.profile .photo img{
+    position: absolute;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 50px;
+    /* margin-right: 24px; */
+    right: 23px;
+    top: -10px;
+}
+.dropdown-menu {
+    overflow: hidden; /* Prevent content overflow in the dropdown */
+}
+.profile .dropdown-menu {
+    width: 120px ;
+    min-width: 100px ;
+}
+
+
+.dropdown-menu.show{
+    margin-top: 20px;
+}   
+.dropdown-item:hover{
+    background-color: rgb(228, 18, 18);
+}
+
+.login-button {
+    background-color: #fdfdfd;
+    color: black;
+    /* font-size: 40px; */
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3 background-color;
+}
+
+.login-button:hover {
+    background-color: rgb(228, 18, 18);
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar .btn-close {
+    background-color: white;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+li a.nav-link{
+    font-size: 23px;
+}
+li .nav-link {
+    color: white;
+    font-weight: 500;
+    position: relative;
+    font-size: 20px;
+
+}
+
+ li .nav-link:hover,
+ li .nav-link:active {
+    color: rgb(228, 18, 18);
+}
+
+
+
+
+@media(min-width:991px) {
+
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgb(228, 18, 18);
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        font-size: 20px;
+    }
+
+    .nav-link:hover::before,
+    .nav-link:active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}

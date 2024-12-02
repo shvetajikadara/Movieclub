@@ -1,0 +1,141 @@
+.main {
+    background-color: black;
+    height: 600px;
+    color: white;
+    width: 100%;
+
+}
+
+.image {
+    height: 100%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.movieimg {
+    position: absolute;
+    height: 70%;
+    width: 20%;
+    top: 8%;
+    left: 9%;
+    border-radius: 8px;
+
+}
+
+.movieinfo {
+    margin-top: 10px;
+    color: rgb(205, 200, 200);
+    position: absolute;
+    left: 35%;
+    top: 22%;
+}
+
+.moviebtn {
+    position: absolute;
+    bottom: -35%;
+    left: 2%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 7, 7);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 22%;
+}
+
+.moviebtn:hover {
+    background-color: rgb(190, 51, 51);
+
+}
+
+div.rating {
+    background-color: rgb(79, 79, 79);
+    padding: 5px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    width: 40%;
+}
+
+div.movietype {
+    letter-spacing: 2px;
+    width: 40%;
+}
+
+
+div.moviedit {
+    padding: 8px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+
+}
+
+div.movieslider {
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    color: white;
+}
+
+div.heading {
+    padding-top: 60px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin-left: 8%;
+    margin-right: 6%;
+
+}
+
+.slider {
+    margin-top: 60px;
+}
+
+.card {
+    color: white;
+    background-color: black;
+    /* padding:0 10px; */
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.card-body{
+    padding: 10px;
+
+}
+
+.cardimg{
+    object-fit: cover;
+}
+.btnbooking{
+    position: absolute;
+    bottom: 35%;
+    right: 28%;
+    background-color: rgb(228, 18, 18);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 40px;
+    width: 130px;
+    /* transition: opacity 0.3s ease-in-out; */
+    display: none;
+}
+.mname{
+    margin-top: 20px;
+    color: rgb(181, 178, 178);
+}
+span.type{
+    font-size: 20px;
+    color: rgb(153, 144, 144);
+    float: left;
+}
+span.rating{
+    font-size: 20px;
+    color: rgb(153, 144, 144);
+    float: right;
+}
+span.rating i{
+    color: gold;
+}
