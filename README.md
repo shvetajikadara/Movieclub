@@ -70,4 +70,4 @@
 ![User manage](project/img/viewuser.png)
 
 #### Ticket History Page
-![Ticket manage](project/img/history(2).png)
+![Ticket manage](project/img/history (2).png)
